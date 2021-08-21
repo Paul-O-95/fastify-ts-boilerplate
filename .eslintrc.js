@@ -10,7 +10,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'plugin:@typescript-eslint/eslint-recommended'],
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
     indent: ['error', 'tab'],
